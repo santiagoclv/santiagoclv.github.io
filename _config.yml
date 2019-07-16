@@ -1,5 +1,6 @@
 title: Santiago's
 description: General index of github account's content.
+bannerImg: ./assets/images/banner.png
 show_downloads: false
 google_analytics: false
 theme: jekyll-theme-leap-day
