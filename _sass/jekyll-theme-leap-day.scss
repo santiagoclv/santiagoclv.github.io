@@ -151,9 +151,7 @@ header {
   right:0;
   width: 100%;
   text-align: center;
-  background: #ffcc00;
-  border: 1px solid #f0b500;
-  // background: url(../images/background.png) #4276b6;
+  background: url(../images/background.png) #7ea3d1;
   box-shadow: 1px 0px 2px rgba(0,0,0,.75);
   z-index:99;
   -webkit-font-smoothing:antialiased;
@@ -173,8 +171,8 @@ header {
   }
 
   p {
-    color: #d8d8d8;
-    text-shadow:rgba(#000, 0.2) 0 1px 0;
+    color: #ffcc00;
+    text-shadow:rgba(#f0b500, 0.2) 0 1px 0;
     font-size: 18px;
     margin: 0px;
   }
