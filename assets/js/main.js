@@ -1,4 +1,9 @@
 var sectionHeight = function() {
+    /*
+   * @TODO Esta bosta tambien
+   * @body this sucks
+   *
+   * */
   var total    = $(window).height(),
       $section = $('section').css('height','auto');
 
