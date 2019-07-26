@@ -1,9 +1,4 @@
 var sectionHeight = function() {
-    /*
-   * @TODO Esta bosta tambien
-   * @body this sucks
-   *
-   * */
   var total    = $(window).height(),
       $section = $('section').css('height','auto');
 
@@ -17,13 +12,7 @@ var sectionHeight = function() {
 
 $(window).resize(sectionHeight);
 
-$(function() {
-  /*
-   * @TODO Quitar Jquery
-   * @body this sucks
-   *
-   * */
-  
+$(function() {  
   $("section h1, section h2, section h3").each(function(){
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>");
     $(this).attr("id",$(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,''));
