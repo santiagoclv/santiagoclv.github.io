@@ -4,13 +4,3 @@
 
 
 ```
-
-## Drawing
-
-## Canvas & Phaser froggy
-
-## Spanish Game
-
-## React Curse
-
-## GraphQL Curse
